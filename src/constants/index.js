@@ -15,14 +15,21 @@ import {
   git,
   figma,
   docker,
+  python,
+  cplusplus,
   meta,
   starbucks,
+  maersk,
+  xlenz,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  java,
+  django,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -46,60 +53,64 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Backend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Automation Specialist",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Scraping Specialist",
     icon: creator,
   },
 ];
 
 const technologies = [
+
   {
-    name: "HTML 5",
-    icon: html,
+    name: "cplusplus",
+    icon: cplusplus,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "Java",
+    icon: java,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "django",
+    icon: django,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+
+  {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -116,57 +127,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Engineer",
+    company_name: "Maersk",
+    icon: maersk,
+    iconBg: "#FEFEFE",
+    date: "January 2022 - At present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Developed a website which extracts dynamic and static reports using Django and React",
+      "Automated processes and wrote scripts in Python to improve efficiency and reduce manual work.",
+      "Improved the reliability of the application by maintaining a low defect rate, proactively identifying and resolving issues before they affect the user.",
+      "Automated the test cases using TestStack UI",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer Intern",
+    company_name: "Xlenz",
+    icon: xlenz,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Worked on the Implementation of VirtualTryOn on web using Three.js and AR.js.",
+      "Implemented the service worker which loads an AR model when the user is offline",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Performed Code reviews for teammates, involved in technical discussions and Knowledge sharing sessions",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
@@ -198,67 +184,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "JNTUH RESULTS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project aims to provide students of JNTUH University with an efficient way of accessing their own semester results as well as those of their classmates. With just a single click, students will be able to view their academic performance throughout the semesters.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "cheerio",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ThilakReddyy/JNTUHRESULTS-WEB",
   },
   {
-    name: "Job IT",
+    name: "TS SSC Results",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project aims to provide 10th students of telangana with an efficient way of accessing their own results as well as those of their classmates. With just a single click, students will be able to view their academic performance and compare it with their classmates.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "cheerio",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ThilakReddyy/TS-SSC-RESULTS-WEB",
   },
   {
-    name: "Trip Guide",
+    name: "SURVEILLANCE USING FACE RECOGNITION",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project utilizes face recognition technology to enhance security on a college campus. The system is designed to identify and track individuals by comparing their facial features with a pre-existing database of enrolled students faces.",
     tags: [
       {
-        name: "nextjs",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "bs4",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "flutter",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ThilakReddyy/SURVEILLANCE-SYSTEM-USING-FACE-RECOGNITION",
   },
 ];
 

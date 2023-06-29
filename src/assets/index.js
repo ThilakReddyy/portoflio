@@ -13,6 +13,8 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import java from "./tech/java.png";
+import django from "./tech/django.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -20,15 +22,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import python from "./tech/python.png";
+import cplusplus from "./tech/cplusplus.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import maersk from "./company/maersk.png"
 import tesla from "./company/tesla.png";
-
+import xlenz from "./company/xlenz.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import nextjs from "./tech/nextjs.png"
 
 export {
   logo,
@@ -45,6 +50,8 @@ export {
   git,
   html,
   javascript,
+  java,
+  django,
   mongodb,
   nodejs,
   reactjs,
@@ -52,11 +59,16 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  cplusplus,
   meta,
   shopify,
   starbucks,
+  maersk,
+  xlenz,
   tesla,
   carrent,
   jobit,
   tripguide,
+  nextjs,
 };
